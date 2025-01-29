@@ -17,15 +17,14 @@ struct ContentView: View {
             
                 Text("hello world")
                 .padding(.top , 10)
+                
             
                 Text("bye")
-                .padding(.top , 10)
+                .padding(.top , 40)
             
-            Image( "world")
-                .resizable()
-                .frame(width: 60, height: 60)
+           
                     }
-        .padding()
+        
         
         
     }
