@@ -14,12 +14,14 @@ struct ContentView: View {
             Image( "apple-logo-svgrepo-com")
                 .resizable()
                 .frame(width: 60, height: 60)
-            
+                
             Text("hello world")
-                .padding(.top , 10)
+                .padding(.top , 15)
+                .foregroundColor(.red)
             
             Text("GoodBye")
-                .padding(.top , 10)
+                .padding(.top , 20)
+                .foregroundColor(.red)
             
         }
         
