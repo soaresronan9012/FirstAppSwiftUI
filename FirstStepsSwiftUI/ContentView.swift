@@ -13,31 +13,24 @@ struct ContentView: View {
             
             Image( "apple-logo-svgrepo-com")
                 .resizable()
-                .frame(width: 90, height: 90)
-                
-            Text("hello world")
-                .padding(.top , 15)
-                .padding(.bottom, 30)
-                .foregroundColor(.red)
+                .frame(width: 150, height: 150)
+                .padding(.bottom, 90)
             
-           
-            Button("Clique Aqui") {
+            
+            Button(action: {
                 print("Botão pressionado!")
-                    }
-                    .padding()
-                    .background(Color(UIColor.systemGray5))
-                    .foregroundColor(.black)
-                    .cornerRadius(8)
-                    //.frame(width: 200, height: 20)
-                
+            }) {
+                Text("enter")
+                    .frame(width: 100, height: 30) // Definindo largura e altura
+                    .background(Color(.systemGray))
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            
+            
             
         }
-        
-        
-        
     }
-}
-
-#Preview {
-    ContentView()
+    
+    
 }
