@@ -14,7 +14,7 @@ struct ContentView: View {
             Image( "apple-logo-svgrepo-com")
                 .resizable()
                 .frame(width: 150, height: 150)
-                .padding(.bottom, 90)
+                .padding(.bottom, 120)
             
             
             Button(action: {
@@ -26,6 +26,8 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
+            
+           
             
             
             
