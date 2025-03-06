@@ -13,7 +13,7 @@ struct ContentView: View {
             
             Image( "apple-logo-svgrepo-com")
                 .resizable()
-                .frame(width: 150, height: 150)
+                .frame(width: 160, height: 160)
                 .padding(.bottom, 120)
             
             
@@ -21,7 +21,7 @@ struct ContentView: View {
                 print("Botão pressionado!")
             }) {
                 Text("enter")
-                    .frame(width: 100, height: 30) // Definindo largura e altura
+                    .frame(width: 80, height: 30) // Definindo largura e altura
                     .background(Color(.systemGray))
                     .foregroundColor(.white)
                     .cornerRadius(10)
