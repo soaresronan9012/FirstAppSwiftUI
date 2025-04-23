@@ -22,7 +22,7 @@ struct ContentView: View {
             }) {
                 Text("enter")
                     .frame(width: 80, height: 30) // Definindo largura e altura
-                    .background(Color(.systemGray))
+                    .background(Color(.black))
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
